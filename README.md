@@ -4,7 +4,8 @@ Exploring interoperability of BioSimSpace and OpenFF toolkits
 
 Experiment 1) OpenFF --> BSS flow
 - parameterise ethane molecule with OpenFF/SMIRNOFF. Then solvate with BSS and run a BSS MD with SOMD or Gromacs. 
-
+  --> See Prototyping.ipynb 
+  
 Experiment 2) OpenFF --> BSS flow
 - parameterise ethane with OpenFF
 - parameterise methanol with OpenFF
