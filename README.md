@@ -13,7 +13,5 @@ Experiment 2) OpenFF --> BSS flow
 - create FEP inputs for SOMD or Gromacs
 
 Experiment 3)  BSS --> OpenFF flow
-- load methanol in water previously parameterised with BSS. 
-- extract methanol, reparameterise. 
-- save topology
-- read again topology in BSS
+- load an ethane.prm7 molecule in BSS 
+- get the molecule and parameterise with OpenFF 
