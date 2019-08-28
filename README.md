@@ -2,9 +2,17 @@
 Exploring interoperability of BioSimSpace and OpenFF toolkits
 
 
-Goal 1) Testing OpenFF --> BSS flows
-- parameterise a molecule with OpenFF/SMIRNOFF. Then solvate with BSS and run a BSS MD with SOMD, Gromacs or NAMD. 
-- same as above but setting up FEP inputs
+Experiment 1) Testing OpenFF --> BSS flows
+- parameterise ethane molecule with OpenFF/SMIRNOFF. Then solvate with BSS and run a BSS MD with SOMD or Gromacs. 
 
-Goal 2) Testing BSS --> OpenFF flows
-- load a solvated and parameterised system with BSS, pass the data to OpenFF, reparameterise components and save output in a format that can be read back into BSS. 
+Experiment 2)
+- parameterise ethane with OpenFF
+- parameterise methanol with OpenFF
+- generate merge molecule with BSS
+- create FEP inputs for SOMD or Gromacs
+
+Experiment 3) 
+- load methanol in water previously parameterised with BSS. 
+- extract methanol, reparameterise. 
+- save topology
+- read again topology in BSS
