@@ -15,3 +15,6 @@ Experiment 3) OpenFF --> BSS flow (not done)
 - parameterise methanol with OpenFF
 - generate merge molecule with BSS
 - create FEP inputs for SOMD or Gromacs
+
+Meeting notes
+https://docs.google.com/document/d/18B87lB9pv8AGm0fcPCgmHTUjT1L9G-l_3ujz3clKBUA/edit#heading=h.g2xkwe239ej9
